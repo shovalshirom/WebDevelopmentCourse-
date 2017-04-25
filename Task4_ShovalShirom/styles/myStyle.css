@@ -1,0 +1,93 @@
+﻿body 
+{
+    direction:rtl;
+    background-color:cadetblue;
+  
+}
+#container{
+    width:960px;
+    margin:0 auto;
+    border: solid 10PX cadetblue;
+    background-color:white;
+   
+}
+
+label{
+     display:block;
+     margin-top:10px;
+}
+
+input[type ='text'] , input[type ='password'] ,textarea , select {
+    display:block;
+    margin-bottom:15px;
+}
+
+input[type ='submit']
+{
+ margin-top:10px;
+}
+
+.FIRST{
+
+    display:inline-block;
+    
+}
+
+#first1{
+
+    margin-top:30PX;
+    background-color:lightgray;
+   height:90PX;
+    font-size:20PX;
+   
+
+}
+
+#header1{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40PX;
+    color:cadetblue;
+    text-align:center;
+    text-decoration:dotted;
+margin-left:90PX;
+border: 20PX solid lightgray;
+      background-color:lightgray;
+      width:920PX;
+}
+
+.phototelem{
+
+   
+margin:50PX 50PX 50PX 50PX;
+background-size:20PX;
+
+}
+#adventages{
+
+    margin-top:30PX;
+    margin-bottom: 10PX;
+    font-size:20PX;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#ofir {
+    margin-right: 170PX;
+}
+#bold{
+    font-size:20PX;
+   font-weight:bold;
+    font-family:Arial;
+    margin-top: 10PX;
+
+     }
+
+
+#Send{
+
+    display:inline-block;
+
+}
+ 
+
