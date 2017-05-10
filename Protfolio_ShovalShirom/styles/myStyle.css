@@ -1,0 +1,537 @@
+﻿body {
+    direction: rtl;
+    line-height: 30PX;
+    background-color:#7fdee7;
+  background-size:100%;
+    background-repeat: no-repeat;
+    background-size: 2000PX;
+}
+#container {
+    width: 960PX;
+    
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30PX;
+   
+}
+#hello{
+
+    text-align:center;
+    text-shadow: 3px 3px 3px #C7D4FF;
+    font-weight:bold;
+    color:#b596d8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#pencil{
+
+
+    font-size:40PX;
+    text-align:center;
+    color:deepskyblue;
+}
+#background{
+    background-color:aliceblue;
+    color:#bed4ff;
+ 
+
+    
+}
+#shovali {
+    background-image: url('../images/shovali.png');
+    background-size: 200PX;
+    height: 200PX;
+    width: 600PX;
+    background-repeat: no-repeat;
+    background-position-x: -00PX;
+}
+#shovali:hover {
+    background-image: url('../images/shovavi.png');
+    background-size: 200PX;
+    height: 200PX;
+    width: 600PX;
+    background-repeat: no-repeat;
+    background-position-x: -00PX;
+}
+#change {
+    background-image: url('../images/change.png');
+    background-repeat: no-repeat;
+    height: 200PX;
+    width: 260PX;
+    background-size: 250PX;
+    background-position-y: -100PX;
+    background-position-x: -130PX;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 1s ease;
+    -ms-transition: background 1s ease;
+    -o-transition: background 1s ease;
+    transition: background 1s ease;
+}
+    #change:hover {
+        background-image: url('../images/change.png');
+        background-repeat: no-repeat;
+        height: 200PX;
+        width: 260PX;
+        background-size: 250PX;
+        background-position-y: -100PX;
+        background-position-x: 130PX;
+    }
+
+
+#pic {
+    background-image: url('../images/vi2.jpg');
+    background-size: 60PX;
+    height: 65PX;
+    width: 100PX;
+   
+    background-repeat: no-repeat;
+}
+#pic2{
+
+ background-size: 60PX;
+    height: 65PX;
+    width: 100PX;
+  background-repeat:no-repeat;
+ 
+    background-image: url('../images/vi2.jpg');
+
+}
+#pic3{
+
+  background-size: 60PX;
+    height:65PX;
+    width: 100PX;
+  background-repeat:no-repeat;
+
+    background-image: url('../images/vi2.jpg');
+}
+
+#nav1{
+    height:40px;
+    margin: 20PX 40PX;
+}
+
+ul{
+list-style: none;
+    
+}
+
+
+#nav1 ul li{
+
+display: inline-block;
+
+float: right;
+}
+
+#nav1 ul li a{
+
+display:block;
+background-color: #989494;
+color: white;
+font-weight: bold;
+width: 220PX;
+height: 40PX;
+padding-top: 10PX;
+text-decoration: none;
+text-align: center;
+font-size: 20PX;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top:20PX;
+
+
+}
+
+ #nav1 ul li a:hover {
+                background-color: #497fe4;
+            }
+
+            #nav1 ul li a:active {
+                background-color: #7467a1;
+            }
+
+
+         #nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+          #nav1 ul li ul li a {
+            background-color:#944e4e;
+        }
+
+        #nav1 ul li:hover ul {
+            display: block;
+            width: 220px;
+          
+        }
+
+ #nav1 .current{
+
+background-color:#bed4ff;
+
+        }
+
+ #nav2 .current2{
+
+background-color: lightyellow;
+
+
+        }
+
+
+
+.one{
+   
+  
+    height: 1000PX;
+    width: 300PX; 
+    font-size: 20PX;
+  
+}
+
+#nav2 ul li{
+
+    display:inline-block;
+    font-size:20PX;
+}
+
+#nav2 ul li:after{
+
+    content: ">";
+}
+
+#nav2 ul li:last-child:after{
+
+    content:"";
+}
+
+ 
+#third{
+
+    font-weight: bold;
+    font-size: 25PX;
+    margin-top:10PX;
+    padding-right:20PX;
+}
+
+#photonohar {
+ 
+    background-image: url('../images/יש לנו ארץ נהדרת מסך.jpg');
+    background-size: 200PX;
+    width: 400PX;
+    height: 300PX;
+    background-repeat: no-repeat;
+    margin-right: 300PX;
+}
+
+  #sirton {
+
+           padding-left:100PX;
+           margin-right:195PX;
+         
+        }
+
+  #photoren {
+    
+    background-image: url('../images/עדי הצלמת  אומרת לכם.jpg');
+    background-size:300PX;
+    width: 350PX;
+    height: 500PX;
+    background-repeat: no-repeat;
+    margin-right: 300PX;
+}
+ 
+
+
+  #photorotem {
+    background-image: url('../images/פוסטר לאווטאר.jpg');
+    background-size: 350PX;
+    width: 600PX;
+    height: 550PX;
+    background-repeat: no-repeat;
+    padding-right: 30PX;
+    
+
+}
+
+#photorotem:hover {
+    background-image: url('../images/פוסטר אמיתי של אווטאר.jpg');
+      background-size: 350PX;
+    width: 600PX;
+    height: 550PX;
+    background-repeat: no-repeat;
+      padding-right: 30PX;
+    
+    
+}
+
+
+
+#tikshoret1{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40PX;
+    color:black;
+     margin-top:40Px;
+     border: 20PX;
+     height:50PX;
+     background-color:#dce5f8;
+     text-shadow: 3px 3px 3px #3DBEFF;
+   
+}
+.tikshoret4{
+     color:black;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:20PX;
+    padding-top:30PX;
+    font-weight:bold;
+   color:#48d4cb;
+
+}
+.tikshoret2{
+
+      color:black;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:20PX;
+    font-weight:bold;
+     color:#48d4cb;
+}
+
+#tikshoret2{
+     color:black;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:30PX;
+     margin-top:20Px;
+}
+
+     
+
+#second{
+
+
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 p ul{
+
+
+    direction:ltr;
+    list-style-type: circle;
+}
+#shophoto {
+    background-image: url('../images/תמונה מגניבה2.png');
+    background-size: 300PX;
+    width: 470PX;
+    height: 900PX;
+    background-repeat: no-repeat;
+}
+#shophoto:active {
+    background-image: url('../images/תמונה מגניבה2.png');
+    background-size: 300PX;
+    width: 470PX;
+    height: 900PX;
+    background-position-y: 877PX;
+    background-position-x: 2480PX;
+    background-repeat: no-repeat;
+}
+
+#shophoto:active {
+    background-image: url('../images/תמונה מגניבה2.png');
+    background-size: 300PX;
+    width: 470PX;
+    height: 900PX;
+    background-position-y:1754PX;
+     background-position-x: 2480PX;
+    background-repeat: no-repeat;
+}
+#shophoto:active {
+    background-image: url('../images/תמונה מגניבה2.png');
+    background-size: 300PX;
+    width: 470PX;
+    height: 900PX;
+    background-position-y:2631PX;
+     background-position-x: 2480PX;
+    background-repeat: no-repeat;
+}
+#shophoto2 {
+    background-image: url('../images/shoval.jpg');
+     background-size: 200PX;
+    width:200PX;
+    height: 150PX;
+    background-repeat: no-repeat;
+  
+}
+
+.tikshoret2{
+    
+
+    text-align: center;
+    
+}
+
+#email {
+    background-image: url('../images/email real.png');
+    background-size: 50PX;
+    width: 470PX;
+    height: 100PX;
+    background-repeat: no-repeat;
+    margin: 10PX;
+    -webkit-transition: background 1s linear;
+    -moz-transition: background 1s linear;
+    -ms-transition: background 1s linear;
+    -o-transition: background 1s linear;
+    transition: background 1s linear;
+}
+#email:hover {
+    background-image: url('../images/gmail-logo.jpg');
+    background-size: 80PX;
+    width: 470PX;
+    height: 100PX;
+    background-repeat: no-repeat;
+    margin: 10PX;
+}
+    #email:active {
+        background-image: url('../images/email2.png');
+        background-size: 50PX;
+        width: 470PX;
+        height: 100PX;
+        background-repeat: no-repeat;
+        margin: 10PX;
+    }
+
+#facebook {
+    background-image: url('../images/facebook55.png');
+    background-size: 50PX;
+    width: 470PX;
+    height: 100PX;
+    background-repeat: no-repeat;
+    margin: 10PX;
+    -webkit-transition: background 1s linear;
+    -moz-transition: background 1s linear;
+    -ms-transition: background 1s linear;
+    -o-transition: background 1s linear;
+    transition: background 1s linear;
+}
+#facebook:hover {
+    background-image: url('../images/facebook.jpeg');
+    background-size: 80PX;
+    width: 470PX;
+    height: 100PX;
+    background-repeat: no-repeat;
+    margin: 10PX;
+}
+    #facebook:active {
+        background-image: url('../images/facebook3.jpeg');
+        background-size: 50PX;
+        width: 470PX;
+        height: 100PX;
+        background-repeat: no-repeat;
+        margin: 10PX;
+    }
+#youtube {
+    background-image: url('../images/youtube55.png');
+    background-size: 90PX;
+    width: 500PX;
+    height: 100PX;
+    background-repeat: no-repeat;
+    margin: 10PX;
+    -webkit-transition: background 1s linear;
+    -moz-transition: background 1s linear;
+    -ms-transition: background 1s linear;
+    -o-transition: background 1s linear;
+    transition: background 1s linear;
+}
+#youtube:hover {
+    background-image: url('../images/youtube.jpeg');
+    background-size: 80PX;
+    width: 470PX;
+    height: 100PX;
+    background-repeat: no-repeat;
+    margin: 10PX;
+}
+    #youtube:active {
+        background-image: url('../images/youtube2.jpeg');
+        background-size: 50PX;
+        width: 470PX;
+        height: 100PX;
+        background-repeat: no-repeat;
+        margin: 10PX;
+    }
+
+#center1{
+
+    text-align: center;
+    text-decoration:underline;
+    font-size:25PX;
+}
+
+#design1{
+
+    font-size:25PX;
+    margin-top:20PX;
+    font-family:Tahoma;
+    padding:20PX;
+}
+
+#design3{
+
+    font-size:25PX;
+    
+    font-family:Tahoma;
+    padding-right:20PX;
+}
+
+#design2{
+
+     font-size:25PX;
+    margin-top:20PX;
+    font-family:Tahoma;
+    padding:20PX;
+}
+
+#sho66 {
+    background-image: url('../images/shoval.jpg');
+    background-size:400PX;
+    width: 570PX;
+    height: 500PX;
+    background-repeat: no-repeat;
+    margin-top:50PX;
+}
+
+.design3{
+     font-size:18PX;
+   
+    font-family:Tahoma;
+    padding:15PX;
+
+
+}
+
+.design4{
+
+ font-size:22PX;
+    
+    font-family:Tahoma;
+     font-weight: bold;
+     padding:20PX;
+}
+
+.design5{
+    font-size:20PX;
+    margin-top:7PX;
+    font-family:Tahoma;
+     padding:20PX;
+
+}
+
+    
+   
+
+
+
+  
